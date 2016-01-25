@@ -1,0 +1,40 @@
+{
+  "name": "spas",
+  "version": "0.0.1",
+  "description": "single page app skeleton",
+  "main": "src/index.js",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "global": "^4.3.0",
+    "mercury": "^14.0.0",
+    "normalize.css": "^3.0.3",
+    "style-loader": "^0.13.0",
+    "svg-loader": "0.0.2",
+    "url-loader": "^0.5.7",
+    "vdom-to-html": "^2.2.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.7.1",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hot": "$(npm bin)/webpack-dev-server --port 8080 --hot --progress --colors --inline ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kr1sp1n/spas.git"
+  },
+  "keywords": [
+    "spa",
+    "skeleton"
+  ],
+  "author": "kr1sp1n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kr1sp1n/spas/issues"
+  },
+  "homepage": "https://github.com/kr1sp1n/spas"
+}
