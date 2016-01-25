@@ -1,2 +1,3 @@
-# spas
-Single Page App Skeleton
+# Single Page App Skeleton
+
+Boilerplate using mercury and webpack.
